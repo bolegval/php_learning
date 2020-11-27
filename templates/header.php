@@ -25,5 +25,5 @@ require($_SERVER['DOCUMENT_ROOT'] . '/include/main_menu.php');
         <td   td class="left-collum-index">
             <h1><?= pageTitle($menu) ?></h1>
 	    </td>
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/authForm.php'); ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/rightSide.php'); ?>
     </table>
